@@ -5,8 +5,14 @@ candidati.append(cand1)
 cand2=input("Inserire il nome del secondo candidato ")
 cand2=cand2.upper()
 candidati.append(cand2)
-punteggio1=int(input("Inserire i voti del primo "))
-punteggio2=int(input("Inserire il voti del secondo "))
+while True:
+    try:
+        punteggio1=int(input("Inserire i voti del primo "))
+        punteggio2=int(input("Inserire il voti del secondo "))
+        break
+    except ValueError:
+        print("\nERRORE\n")
+        pass
 candidati.sort
 print("Candidati in ordine alfabetico:", candidati)
 if punteggio1==punteggio2:
