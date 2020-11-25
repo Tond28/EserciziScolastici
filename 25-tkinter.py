@@ -43,7 +43,7 @@ def reset(*args):
 
 
 root=Tk()
-root.title("Es. 24")
+root.title("Es. 25")
 root.geometry("650x400")
 
 
@@ -78,7 +78,7 @@ Label(root, text="Nome secondo candidato:", font=('verdana', 15)).place(height=3
 
 Label(root, text="Voti primo candidato:", font=('verdana', 15)).place(height=30, x=5, y=180)
 Label(root, text="Voti secondo candidato:", font=('verdana', 15)).place(height=30, x=275, y=180)
-Label(root, text="Es. 24", font=('verdana', 20)).place(height=30, x=210, y=5)
+Label(root, text="Es. 25", font=('verdana', 20)).place(height=30, x=210, y=5)
 
 Label(root, text="Ordine Alfabetico:", font=('verdana', 17)).place(height=30, x=10, y=280)
 Label(root, textvariable=alfa1, font=('verdana', 17), fg="red").place(height=30, x=50, y=310)

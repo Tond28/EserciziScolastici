@@ -5,6 +5,7 @@ while True:
         stipendio=float(input("Inserire il valore dello stipendio   "))
     except ValueError:
         pass
+        print("\nErrore\n")
     if stipendio==-1:
         break
     else:

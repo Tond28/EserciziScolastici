@@ -16,7 +16,7 @@ while True:
 candidati.sort()
 print("Candidati in ordine alfabetico:", candidati)
 if punteggio1==punteggio2:
-    print(candidati)
+    print("I candidati in ordine di punti sono: PAREGGIO")
 elif punteggio1>punteggio2:
     print("I candidati in ordine di punti sono:", cand1, cand2)
 else:
