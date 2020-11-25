@@ -3,6 +3,9 @@
 # Requisiti:
 - Python 3.8.1 (consigliato)
 
+# Esercizi aggiuntivi:
+- Ogni esercizio è stato svolto sia tramite Python base (input e output sul terminale), sia tramite Tkinter (grafica); i file fatti anche in grafica sono segnalati tramite "-Tkinter"
+
 # Consegne:
 ## 24:
 - Alla fine della giornata di elezioni per il ballottaggio tra due candidati, si acquisiscono i voti ottenuti dai due candidati. Scrivi il programma che calcoli le percentuali ottenute da ciascun candidato e comunichi il nome del vincitore
