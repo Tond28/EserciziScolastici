@@ -13,7 +13,7 @@ while True:
     except ValueError:
         print("\nERRORE\n")
         pass
-candidati.sort
+candidati.sort()
 print("Candidati in ordine alfabetico:", candidati)
 if punteggio1==punteggio2:
     print(candidati)
