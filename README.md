@@ -1,5 +1,5 @@
 # Esercizi 24,25,26,27 pag 73
-
+# Di Filippo Tondelli
 # Requisiti:
 - Python 3.8.1 (consigliato)
 
