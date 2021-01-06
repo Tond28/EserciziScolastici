@@ -1,3 +1,8 @@
+'''
+Dato un elenco di città, con specificato nome, temperatura massima e temperatura minima di ognuna
+Trovare il numero di città che superato il valore dell'escursione termica inserita dall'utente
+'''
+
 città=[]
 temp_max=[]
 temp_min=[]

@@ -1,3 +1,8 @@
+'''
+Dato un elenco di studenti partecipanti 
+a una gara sportiva di lancio del peso (nome stundente, lancio), 
+visualizza il valore del lancio del vincitore (valore massimo)
+'''
 studenti_nome=[]
 studenti_lancio=[]
 numero_studenti=int(input("Inserire il numero degli studenti "))

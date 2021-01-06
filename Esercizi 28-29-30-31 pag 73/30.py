@@ -1,3 +1,8 @@
+'''
+Fornisci la rappresentazione in decimale di un numero binario
+Per farlo chiedere prima la lunghezza del numero decimale e poi inserire un valore alla volta
+'''
+
 lunghezza=int(input("Inserire la lunghezza del numero binario "))
 valore_dec=0
 valore_bin_int=""

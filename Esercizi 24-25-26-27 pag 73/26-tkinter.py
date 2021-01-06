@@ -1,9 +1,12 @@
 from tkinter import *
 from tkinter import ttk
+
+'''
+Calcola la media degli stipendi dei dipendenti di un'azienda
+'''
+
 stipendi=0
 stipendio_tot=0.0
-
-#RIMOSSO CHE CON -1 SI FERMA IL PROGRAMMA IN QUANTO POCO UTILE IN QUESTO METODO GRAFICO
 
 def stipendi_def(*args):
     global stipendi, stipendio_tot

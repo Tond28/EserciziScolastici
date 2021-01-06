@@ -1,6 +1,12 @@
 from tkinter import *
 from tkinter import ttk
 
+'''
+A un concorso pubblico hanno partecipato due candidati di cui si conoscono 
+i nomi e i punteggi conseguiti. 
+Visualizza l'elenco dei due candidati prima in ordine alfabetico 
+e poi in ordine decrescente di punteggio
+'''
 
 def voti_def(*args):
     candidati=[]

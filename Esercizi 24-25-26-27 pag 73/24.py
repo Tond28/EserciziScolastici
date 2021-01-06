@@ -1,3 +1,10 @@
+'''
+Alla fine della giornata di elezioni per il ballottaggio tra due candidati, 
+si acquisiscono i voti ottenuti dai due candidati. 
+Scrivi il programma che calcoli le percentuali ottenute da ciascun candidato 
+e comunichi il nome del vincitore
+'''
+
 candidato_1=input("Inserire il nome del primo candidato ")
 candidato_2=input("Inserire il nome del secondo candidato ")
 while True:

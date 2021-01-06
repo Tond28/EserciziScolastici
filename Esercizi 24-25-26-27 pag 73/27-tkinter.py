@@ -1,9 +1,14 @@
+'''
+I dati relativi al numero di veicoli transitati in entrata a un casello autostradale 
+sono inseriti, giorno per giorno, con una ripetizione.
+Comunica il totale dei veicoli transitanti nel periodo considerato
+'''
+
 from tkinter import *
 from tkinter import ttk
 giorni=0
 veicoli_tot=0
 
-#RIMOSSO CHE CON 0 SI FERMA IL PROGRAMMA IN QUANTO POCO UTILE IN QUESTO METODO GRAFICO
 
 def transito_def(*args):
     global giorni, veicoli_tot

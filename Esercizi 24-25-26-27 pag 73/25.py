@@ -1,3 +1,10 @@
+'''
+A un concorso pubblico hanno partecipato due candidati di cui si conoscono 
+i nomi e i punteggi conseguiti. 
+Visualizza l'elenco dei due candidati prima in ordine alfabetico 
+e poi in ordine decrescente di punteggio
+'''
+
 candidati=[]
 cand1=input("Inseire il nome del primo candidato ")
 cand1=cand1.upper()

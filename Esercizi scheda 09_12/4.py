@@ -1,3 +1,5 @@
+from math import pi
+
 while True:
     scelta=input("Che area vuoi calcolare (scegliere tra triangolo,rettangolo, quadrato, cerchio; schiaccaire invio senza inserire nulla per fermare il programma) ")
     scelta=scelta.upper()
@@ -44,7 +46,7 @@ while True:
             except ValueError:
                 print("Valori inseriti in modo errato")
                 pass
-        area_cerchio=(raggio**2)*3.1415926535
+        area_cerchio=(raggio**2)*pi
         print("L'area del cerchio con raggio", raggio, "è", area_cerchio)
     else:
         print("Figura non trovata")

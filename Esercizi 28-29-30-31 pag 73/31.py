@@ -1,3 +1,6 @@
+'''
+Fornisci la rappresentazione in binario di un numero decimale
+'''
 num_binario=""
 num_decimale=int(input("Inserire il numero decimale "))
 num_decimale_fin=num_decimale

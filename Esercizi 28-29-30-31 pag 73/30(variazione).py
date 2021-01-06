@@ -1,3 +1,7 @@
+'''
+Fornisci la rappresentazione in decimale di un numero binario
+'''
+
 valore_dec=0
 contatore=0
 numero_bin=input("Inserire il numero binario ")
