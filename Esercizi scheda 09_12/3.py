@@ -1,3 +1,4 @@
+CARATTERI="aeiou:,;.!?òàùèì "
 while True:
     parola_it=""
     parola=input("Inserire la parola in italiano (non inserire niente per fermare il programma) ")
@@ -6,10 +7,10 @@ while True:
         break
     else:
         for l in parola:
-            if not l in "aeiou:,;.!?òàùèì ":
+            if not l in CARATTERI:
                 parola_it=parola_it+l+"o"+l
 
-            elif l in "aeiou:,;.!?òàùèì ":
+            else:
                 parola_it=parola_it+l
 
         print(parola_it)

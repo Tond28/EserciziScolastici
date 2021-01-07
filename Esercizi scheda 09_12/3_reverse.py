@@ -1,3 +1,4 @@
+CARATTERI="aeiou:,;.!?òàùèì "
 while True:
     parola_it=""
     controllo=0
@@ -8,10 +9,10 @@ while True:
     else:
         for l in parola:
             if controllo==0:
-                if not l in "aeiou:,;.!?òàùèì ":
+                if not l in CARATTERI:
                     parola_it=parola_it+l
                     controllo=2
-                elif l in "aeiou:,;.!?òàùèì ":
+                else:
                     parola_it=parola_it+l
             else:
                 controllo-=1
