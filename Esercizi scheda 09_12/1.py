@@ -1,3 +1,5 @@
+#Trovare se una parola è palindroma
+
 parola_reverse=""
 parola=input("Inserire la parola ")
 parola=parola.lower()

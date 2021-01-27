@@ -1,3 +1,5 @@
+#Contare i caratteri di una parola
+
 parole=[]
 num_lettere=[]
 lettere=0

@@ -1,7 +1,9 @@
+#Calcolare area di un triangolo, rettangolo, quadrato, cerchio
+
 from math import pi
 
 while True:
-    scelta=input("Che area vuoi calcolare (scegliere tra triangolo,rettangolo, quadrato, cerchio; schiaccaire invio senza inserire nulla per fermare il programma) ")
+    scelta=input("Che area vuoi calcolare (scegliere tra triangolo, rettangolo, quadrato, cerchio; schiaccaire invio senza inserire nulla per fermare il programma) ")
     scelta=scelta.upper()
     if scelta=="":
         print("Grazie per aver utilizzato il programma")
