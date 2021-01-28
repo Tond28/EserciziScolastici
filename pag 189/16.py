@@ -14,7 +14,7 @@ nazioni_capitali={
 
 while True:
     nazione=input("Inserire una nazione (inserire aaa per fermare il programma) \n")
-    nazione=(nazione.lower()).capitalize()
+    nazione=nazione.capitalize()
     if nazione=="Aaa":
         break
     elif nazione in nazioni_capitali:
