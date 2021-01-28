@@ -15,10 +15,12 @@ while True:
         print("La capitale di", nazione, "è", capitali[nazioni.index(nazione)])
     else:
         #print("Nazione non presente")
+
+
         #aggiunta
         print("Inserire la capitale di", nazione)
         capitale=input()
-        capitale=(capitale.lower()).capitalize()
+        capitale=capitale.capitalize()
         nazioni.append(nazione)
         capitali.append(capitale)
         print("Nazione e Capitale aggiunta correttamente")

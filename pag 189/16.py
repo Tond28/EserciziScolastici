@@ -21,11 +21,12 @@ while True:
         print("La capitale di", nazione, "è", nazioni_capitali[nazione])
     else:
         #print("Nazione non presente")
+
+
         #aggiunta
         print("Inserire la capitale di", nazione)
         capitale=input()
-        capitale=(capitale.lower()).capitalize()
+        capitale=capitale.capitalize()
         nazioni_capitali[nazione]=capitale
         print("Nazione e Capitale aggiunta correttamente")
-        print(nazioni_capitali)
     
