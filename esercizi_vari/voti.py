@@ -7,8 +7,8 @@ import math
 studenti={}
 divisione_voti={
     (18, 23):"",
-    (24, 27):"",
-    (28,30):""
+    (24, 26):"",
+    (27,30):""
 }
 def media_divisione(dizionario_input, dizionario_output, prima_fascia=[], seconda_fascia=[], terza_fascia=[]):
     for st in dizionario_input:
@@ -21,16 +21,16 @@ def media_divisione(dizionario_input, dizionario_output, prima_fascia=[], second
             round(media, 0)
         else:
             media=math.trunc(media)
-        
+        print(media)
         if media<=23:
             prima_fascia.append(st)
-        elif media<=27:
+        elif media<=26:
             seconda_fascia.append(st)
         else:
             terza_fascia.append(st)
     dizionario_output[(18,23)]=prima_fascia
-    dizionario_output[(24, 27)]=seconda_fascia
-    dizionario_output[(28, 30)]=terza_fascia
+    dizionario_output[(24, 26)]=seconda_fascia
+    dizionario_output[(27, 30)]=terza_fascia
     return dizionario_output
 
 while True:
