@@ -1,4 +1,4 @@
-#Costruisci un dizionario ottenuto da quello dell'esercizio precedente (16) invertendo il ruolo di chiave e valore.ù
+#Costruisci un dizionario ottenuto da quello dell'esercizio precedente (16) invertendo il ruolo di chiave e valore.
 #Usa il nuovo dizionario per trovare il nome della nazione, noto il nome della capitale
 
 nazioni_capitali={
