@@ -1,11 +1,15 @@
-
+#I voti assegnati a 30 studenti di una classe in una prova di italiano sono memorizzati in un dizionario 
+#che ha per chiave la matricola, mentre il valore associato è il voto. 
+#Elenca i risultati in ordine crescente di voto 
+#e successivamente visualizza quali voti diversi tra loro sono stati assegnati, riducendo a uno i voti uguali.
 
 studenti_voti={}
 voti_classe=[]
-NUMERO_STUDENTI=5
+NUMERO_STUDENTI=30
 for i in range(NUMERO_STUDENTI):
     print("Inserire la matricola dello studente numero", i+1)
     studente=input()
+    studente=studente.capitalize()
     while True:
         try:
             print("Inserire il voto di", studente)
