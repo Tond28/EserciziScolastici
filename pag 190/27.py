@@ -9,7 +9,7 @@ nomi_numeri={
 }
 
 while True:
-    contatto=input("Inserire il nome della persona della quale si vuole cercare (per fermare inserire aaa) ")
+    contatto=input("Inserire il nome della persona della quale si vuole cercare il numero (per fermare inserire aaa) ")
     contatto=contatto.capitalize()
     if contatto=="Aaa":
         break
